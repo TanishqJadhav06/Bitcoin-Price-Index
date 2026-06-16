@@ -4,7 +4,7 @@ import json
 
 import sys
 response = requests.get(
-            "https://rest.coincap.io/v3/assets/bitcoin?apiKey=2228f11c92d6b21490bd55aa584fa054294188c172abfee3791c613fc98b4ce2"
+            "https://rest.coincap.io/v3/assets/bitcoin?apiKey=You're api key here"
         )
 try:
     if len(sys.argv) == 2:
